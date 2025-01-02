@@ -1,0 +1,17 @@
+.delete {
+    background: linear-gradient(166.82deg, rgb(255, 199, 39) -66.598%,rgb(158, 64, 186) 135.96%,rgb(112, 0, 255) 231.793%);
+    box-shadow: 1px 9px 15px 0px rgba(0, 0, 0, 0.2);
+    color: rgb(251, 251, 251);
+    border: none;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.delete:hover {
+    background-color: #e05650;
+}

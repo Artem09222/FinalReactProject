@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+}
+
+.rightSection {
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25), inset 0px -3px 2px 0px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(-83.72deg, rgb(46, 23, 70) 3.204%, rgb(46, 34, 95) 99.979%);
+  width: 1000px;
+  padding: 30px;
+}
+
+.rightSection.active {
+  transform: translateX(0); 
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 3fr 1fr auto;
+  background-color: #1f1b2e;
+  padding: 15px 10px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.statisticsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh; /* Вирівнює секції по висоті екрана */
+}
+
+.leftStatisticsSection {
+  flex: 1; /* Ліва секція займає 1 частину доступного простору */
+  background: linear-gradient(180deg, rgba(109, 84, 235, 0.6) 0%, rgba(101, 35, 146, 0.6) 100%);
+}
+
+.rightSection {
+  flex: 2; /* Права секція займає 2 частини доступного простору */
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25), inset 0px -3px 2px 0px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(-83.72deg, rgb(46, 23, 70) 3.204%, rgb(46, 34, 95) 99.979%);
+  padding: 30px;
+  overflow-y: auto; /* Додає скролінг, якщо вміст перевищує висоту */
+}
+
+.rightSection {
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%); /* Початкове положення */
+}
+
+.rightSection.active {
+  transform: translateX(0); /* Перехід на стандартне положення */
+}

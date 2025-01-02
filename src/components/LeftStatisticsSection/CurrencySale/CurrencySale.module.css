@@ -1,0 +1,21 @@
+.currencyChartContainer {
+    position: relative; 
+    padding: 3px;
+    border-radius: 8px;
+    color: #ffffff;
+    height: 100%; 
+    width: 100%; 
+    max-width: 500px; 
+    max-height: 400px; 
+    margin: auto; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 4px rgba(0, 0, 0, 0.3);
+}
+
+.canvas {
+    display: block;
+    width: 100%; 
+    height: 100%;
+}

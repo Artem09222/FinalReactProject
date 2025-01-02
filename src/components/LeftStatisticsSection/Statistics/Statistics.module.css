@@ -1,0 +1,23 @@
+.leftStatisticsSectionLogoStatistics {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.leftStatisticsSectionStatisticsTitle {
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.navigationSectionStatistics:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.navigationSectionStatistics {
+    display: flex;
+    gap: 5px;
+}

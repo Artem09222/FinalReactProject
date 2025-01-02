@@ -1,0 +1,11 @@
+.circularChart {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.circularChart canvas {
+    background: linear-gradient(145deg, #2c2c54, #2a2a50);
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
