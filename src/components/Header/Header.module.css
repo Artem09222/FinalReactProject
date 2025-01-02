@@ -1,0 +1,65 @@
+.headerBlock {
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25),inset 0px -3px 2px 0px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(-83.72deg, rgb(46, 23, 70) 3.204%,rgb(46, 34, 95) 99.979%); 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerWrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerSectionLogo {
+    display: flex;
+    align-items: center;
+}
+
+.headerImg {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.headerLogoTitle {
+    font-size: 17px;
+    font-weight: normal;
+    color: #FBFBFB;
+}
+
+.headerSectionExit {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.headerSectionExitTitle {
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.headerLogoExit {
+    height: 18px;
+    width: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.headerExitAlt {
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border: none;
+    text-decoration: none;
+}

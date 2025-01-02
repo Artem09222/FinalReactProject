@@ -1,0 +1,74 @@
+.leftStatisticsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: linear-gradient(-83.72deg, rgb(46, 23, 70) 3.204%, rgb(46, 34, 95) 99.979%);
+    width: 480px;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.leftStatisticsSectionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.leftStatisticsSectionInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px; 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.leftStatisticsSectionLogoHome {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-left: 8px;
+}
+
+.navigationSectionHome.active, .navigationSectionStatistics.active {
+    font-weight: bold;
+    opacity: 1;
+  }
+
+.leftStatisticsSectionLogoStatistics {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.leftStatisticsSectionStatisticsTitle {
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.leftStatisticsSectionHomeTitle {
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.navigationSectionHome {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigationSectionStatistics {
+    display: flex;
+    gap: 5px;
+}
+
+.navigationSectionHome:hover, .navigationSectionStatistics:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

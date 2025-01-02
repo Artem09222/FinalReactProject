@@ -1,0 +1,793 @@
+{
+    "2019": {
+      "January": {
+        "categories": {
+          "Car": 1200,
+          "Self care": 500,
+          "Child care": 2000,
+          "Household products": 300,
+          "Education": 3500,
+          "Leisure": 1000,
+          "Other expenses": 400
+        },
+        "expenses": 8900,
+        "income": 12000
+      },
+      "February": {
+        "categories": {
+          "Car": 1300,
+          "Self care": 550,
+          "Child care": 2100,
+          "Household products": 350,
+          "Education": 3600,
+          "Leisure": 1100,
+          "Other expenses": 450
+        },
+        "expenses": 9450,
+        "income": 12500
+      },
+      "March": {
+        "categories": {
+          "Car": 1400,
+          "Self care": 600,
+          "Child care": 2200,
+          "Household products": 400,
+          "Education": 3700,
+          "Leisure": 1200,
+          "Other expenses": 500
+        },
+        "expenses": 10000,
+        "income": 13000
+      },
+      "April": {
+        "categories": {
+          "Car": 1500,
+          "Self care": 650,
+          "Child care": 2300,
+          "Household products": 450,
+          "Education": 3800,
+          "Leisure": 1300,
+          "Other expenses": 550
+        },
+        "expenses": 10550,
+        "income": 13500
+      },
+      "May": {
+        "categories": {
+          "Car": 1600,
+          "Self care": 700,
+          "Child care": 2400,
+          "Household products": 500,
+          "Education": 3900,
+          "Leisure": 1400,
+          "Other expenses": 600
+        },
+        "expenses": 11100,
+        "income": 14000
+      },
+      "June": {
+        "categories": {
+          "Car": 1700,
+          "Self care": 750,
+          "Child care": 2500,
+          "Household products": 550,
+          "Education": 4000,
+          "Leisure": 1500,
+          "Other expenses": 650
+        },
+        "expenses": 11650,
+        "income": 14500
+      },
+      "July": {
+        "categories": {
+          "Car": 1800,
+          "Self care": 800,
+          "Child care": 2600,
+          "Household products": 600,
+          "Education": 4100,
+          "Leisure": 1600,
+          "Other expenses": 700
+        },
+        "expenses": 12200,
+        "income": 15000
+      },
+      "August": {
+        "categories": {
+          "Car": 1900,
+          "Self care": 850,
+          "Child care": 2700,
+          "Household products": 650,
+          "Education": 4200,
+          "Leisure": 1700,
+          "Other expenses": 750
+        },
+        "expenses": 12750,
+        "income": 15500
+      },
+      "September": {
+        "categories": {
+          "Car": 2000,
+          "Self care": 900,
+          "Child care": 2800,
+          "Household products": 700,
+          "Education": 4300,
+          "Leisure": 1800,
+          "Other expenses": 800
+        },
+        "expenses": 13300,
+        "income": 16000
+      },
+      "October": {
+        "categories": {
+          "Car": 2100,
+          "Self care": 950,
+          "Child care": 2900,
+          "Household products": 750,
+          "Education": 4400,
+          "Leisure": 1900,
+          "Other expenses": 850
+        },
+        "expenses": 13850,
+        "income": 16500
+      },
+      "November": {
+        "categories": {
+          "Car": 2200,
+          "Self care": 1000,
+          "Child care": 3000,
+          "Household products": 800,
+          "Education": 4500,
+          "Leisure": 2000,
+          "Other expenses": 900
+        },
+        "expenses": 14400,
+        "income": 17000
+      },
+      "December": {
+        "categories": {
+          "Car": 2300,
+          "Self care": 1050,
+          "Child care": 3100,
+          "Household products": 850,
+          "Education": 4600,
+          "Leisure": 2100,
+          "Other expenses": 950
+        },
+        "expenses": 14950,
+        "income": 17500
+      }
+    },
+    "2020": {
+      "January": {
+        "categories": {
+          "Car": 2500,
+          "Self care": 1500,
+          "Child care": 3300,
+          "Household products": 1000,
+          "Education": 5000,
+          "Leisure": 2300,
+          "Other expenses": 1500
+        },
+        "expenses": 17100,
+        "income": 19000
+      },
+      "February": {
+        "categories": {
+          "Car": 2600,
+          "Self care": 1550,
+          "Child care": 3400,
+          "Household products": 1050,
+          "Education": 5100,
+          "Leisure": 2400,
+          "Other expenses": 1550
+        },
+        "expenses": 17650,
+        "income": 19500
+      },
+      "March": {
+        "categories": {
+          "Car": 2700,
+          "Self care": 1600,
+          "Child care": 3500,
+          "Household products": 1100,
+          "Education": 5200,
+          "Leisure": 2500,
+          "Other expenses": 1600
+        },
+        "expenses": 18200,
+        "income": 20000
+      },
+      "April": {
+        "categories": {
+          "Car": 2800,
+          "Self care": 1650,
+          "Child care": 3600,
+          "Household products": 1150,
+          "Education": 5300,
+          "Leisure": 2600,
+          "Other expenses": 1650
+        },
+        "expenses": 18750,
+        "income": 20500
+      },
+      "May": {
+        "categories": {
+          "Car": 2900,
+          "Self care": 1700,
+          "Child care": 3700,
+          "Household products": 1200,
+          "Education": 5400,
+          "Leisure": 2700,
+          "Other expenses": 1700
+        },
+        "expenses": 19300,
+        "income": 21000
+      },
+      "June": {
+        "categories": {
+          "Car": 3000,
+          "Self care": 1750,
+          "Child care": 3800,
+          "Household products": 1250,
+          "Education": 5500,
+          "Leisure": 2800,
+          "Other expenses": 1750
+        },
+        "expenses": 19850,
+        "income": 21500
+      },
+      "July": {
+        "categories": {
+          "Car": 3100,
+          "Self care": 1800,
+          "Child care": 3900,
+          "Household products": 1300,
+          "Education": 5600,
+          "Leisure": 2900,
+          "Other expenses": 1800
+        },
+        "expenses": 20400,
+        "income": 22000
+      },
+      "August": {
+        "categories": {
+          "Car": 3200,
+          "Self care": 1850,
+          "Child care": 4000,
+          "Household products": 1350,
+          "Education": 5700,
+          "Leisure": 3000,
+          "Other expenses": 1850
+        },
+        "expenses": 20950,
+        "income": 22500
+      },
+      "September": {
+        "categories": {
+          "Car": 3300,
+          "Self care": 1900,
+          "Child care": 4100,
+          "Household products": 1400,
+          "Education": 5800,
+          "Leisure": 3100,
+          "Other expenses": 1900
+        },
+        "expenses": 21500,
+        "income": 23000
+      },
+      "October": {
+        "categories": {
+          "Car": 3400,
+          "Self care": 1950,
+          "Child care": 4200,
+          "Household products": 1450,
+          "Education": 5900,
+          "Leisure": 3200,
+          "Other expenses": 1950
+        },
+        "expenses": 22000,
+        "income": 23500
+      },
+      "November": {
+        "categories": {
+          "Car": 3500,
+          "Self care": 2000,
+          "Child care": 4300,
+          "Household products": 1500,
+          "Education": 6000,
+          "Leisure": 3300,
+          "Other expenses": 2000
+        },
+        "expenses": 22500,
+        "income": 24000
+      },
+      "December": {
+        "categories": {
+          "Car": 3600,
+          "Self care": 2050,
+          "Child care": 4400,
+          "Household products": 1550,
+          "Education": 6100,
+          "Leisure": 3400,
+          "Other expenses": 2050
+        },
+        "expenses": 23000,
+        "income": 24500
+      }
+    },
+    "2021": {
+      "January": {
+        "categories": {
+          "Car": 2600,
+          "Self care": 1600,
+          "Child care": 3400,
+          "Household products": 1100,
+          "Education": 5100,
+          "Leisure": 2400,
+          "Other expenses": 1600
+        },
+        "expenses": 17800,
+        "income": 20000
+      },
+      "February": {
+        "categories": {
+          "Car": 2700,
+          "Self care": 1650,
+          "Child care": 3500,
+          "Household products": 1150,
+          "Education": 5200,
+          "Leisure": 2500,
+          "Other expenses": 1650
+        },
+        "expenses": 18350,
+        "income": 20500
+      },
+      "March": {
+        "categories": {
+          "Car": 2800,
+          "Self care": 1700,
+          "Child care": 3600,
+          "Household products": 1200,
+          "Education": 5300,
+          "Leisure": 2600,
+          "Other expenses": 1700
+        },
+        "expenses": 18800,
+        "income": 21000
+      },
+      "April": {
+        "categories": {
+          "Car": 2900,
+          "Self care": 1750,
+          "Child care": 3700,
+          "Household products": 1250,
+          "Education": 5400,
+          "Leisure": 2700,
+          "Other expenses": 1750
+        },
+        "expenses": 19250,
+        "income": 21500
+      },
+      "May": {
+        "categories": {
+          "Car": 3000,
+          "Self care": 1800,
+          "Child care": 3800,
+          "Household products": 1300,
+          "Education": 5500,
+          "Leisure": 2800,
+          "Other expenses": 1800
+        },
+        "expenses": 19700,
+        "income": 22000
+      },
+      "June": {
+        "categories": {
+          "Car": 3100,
+          "Self care": 1850,
+          "Child care": 3900,
+          "Household products": 1350,
+          "Education": 5600,
+          "Leisure": 2900,
+          "Other expenses": 1850
+        },
+        "expenses": 20100,
+        "income": 22500
+      },
+      "July": {
+        "categories": {
+          "Car": 3200,
+          "Self care": 1900,
+          "Child care": 4000,
+          "Household products": 1400,
+          "Education": 5700,
+          "Leisure": 3000,
+          "Other expenses": 1900
+        },
+        "expenses": 20550,
+        "income": 23000
+      },
+      "August": {
+        "categories": {
+          "Car": 3300,
+          "Self care": 1950,
+          "Child care": 4100,
+          "Household products": 1450,
+          "Education": 5800,
+          "Leisure": 3100,
+          "Other expenses": 1950
+        },
+        "expenses": 21000,
+        "income": 23500
+      },
+      "September": {
+        "categories": {
+          "Car": 3400,
+          "Self care": 2000,
+          "Child care": 4200,
+          "Household products": 1500,
+          "Education": 5900,
+          "Leisure": 3200,
+          "Other expenses": 2000
+        },
+        "expenses": 21450,
+        "income": 24000
+      },
+      "October": {
+        "categories": {
+          "Car": 3500,
+          "Self care": 2050,
+          "Child care": 4300,
+          "Household products": 1550,
+          "Education": 6000,
+          "Leisure": 3300,
+          "Other expenses": 2050
+        },
+        "expenses": 21950,
+        "income": 24500
+      },
+      "November": {
+        "categories": {
+          "Car": 3600,
+          "Self care": 2100,
+          "Child care": 4400,
+          "Household products": 1600,
+          "Education": 6100,
+          "Leisure": 3400,
+          "Other expenses": 2100
+        },
+        "expenses": 22400,
+        "income": 25000
+      },
+      "December": {
+        "categories": {
+          "Car": 3700,
+          "Self care": 2150,
+          "Child care": 4500,
+          "Household products": 1650,
+          "Education": 6200,
+          "Leisure": 3500,
+          "Other expenses": 2150
+        },
+        "expenses": 22950,
+        "income": 25500
+      }
+    },
+    "2022": {
+      "January": {
+        "categories": {
+          "Car": 2800,
+          "Self care": 1800,
+          "Child care": 3600,
+          "Household products": 1300,
+          "Education": 5300,
+          "Leisure": 2600,
+          "Other expenses": 1800
+        },
+        "expenses": 19200,
+        "income": 22000
+      },
+      "February": {
+        "categories": {
+          "Car": 2900,
+          "Self care": 1850,
+          "Child care": 3700,
+          "Household products": 1350,
+          "Education": 5400,
+          "Leisure": 2700,
+          "Other expenses": 1850
+        },
+        "expenses": 19750,
+        "income": 22500
+      },
+      "March": {
+        "categories": {
+          "Car": 3000,
+          "Self care": 1900,
+          "Child care": 3800,
+          "Household products": 1400,
+          "Education": 5500,
+          "Leisure": 2800,
+          "Other expenses": 1900
+        },
+        "expenses": 20300,
+        "income": 23000
+      },
+      "April": {
+        "categories": {
+          "Car": 3100,
+          "Self care": 1950,
+          "Child care": 3900,
+          "Household products": 1450,
+          "Education": 5600,
+          "Leisure": 2900,
+          "Other expenses": 1950
+        },
+        "expenses": 20850,
+        "income": 23500
+      },
+      "May": {
+        "categories": {
+          "Car": 3200,
+          "Self care": 2000,
+          "Child care": 4000,
+          "Household products": 1500,
+          "Education": 5700,
+          "Leisure": 3000,
+          "Other expenses": 2000
+        },
+        "expenses": 21400,
+        "income": 24000
+      },
+      "June": {
+        "categories": {
+          "Car": 3300,
+          "Self care": 2050,
+          "Child care": 4100,
+          "Household products": 1550,
+          "Education": 5800,
+          "Leisure": 3100,
+          "Other expenses": 2050
+        },
+        "expenses": 21950,
+        "income": 24500
+      },
+      "July": {
+        "categories": {
+          "Car": 3400,
+          "Self care": 2100,
+          "Child care": 4200,
+          "Household products": 1600,
+          "Education": 5900,
+          "Leisure": 3200,
+          "Other expenses": 2100
+        },
+        "expenses": 22500,
+        "income": 25000
+      },
+      "August": {
+        "categories": {
+          "Car": 3500,
+          "Self care": 2150,
+          "Child care": 4300,
+          "Household products": 1650,
+          "Education": 6000,
+          "Leisure": 3300,
+          "Other expenses": 2150
+        },
+        "expenses": 22950,
+        "income": 25500
+      },
+      "September": {
+        "categories": {
+          "Car": 3600,
+          "Self care": 2200,
+          "Child care": 4400,
+          "Household products": 1700,
+          "Education": 6100,
+          "Leisure": 3400,
+          "Other expenses": 2200
+        },
+        "expenses": 23400,
+        "income": 26000
+      },
+      "October": {
+        "categories": {
+          "Car": 3700,
+          "Self care": 2250,
+          "Child care": 4500,
+          "Household products": 1750,
+          "Education": 6200,
+          "Leisure": 3500,
+          "Other expenses": 2250
+        },
+        "expenses": 23850,
+        "income": 26500
+      },
+      "November": {
+        "categories": {
+          "Car": 3800,
+          "Self care": 2300,
+          "Child care": 4600,
+          "Household products": 1800,
+          "Education": 6300,
+          "Leisure": 3600,
+          "Other expenses": 2300
+        },
+        "expenses": 24350,
+        "income": 27000
+      },
+      "December": {
+        "categories": {
+          "Car": 3900,
+          "Self care": 2350,
+          "Child care": 4700,
+          "Household products": 1850,
+          "Education": 6400,
+          "Leisure": 3700,
+          "Other expenses": 2350
+        },
+        "expenses": 24850,
+        "income": 27500
+      }
+    },
+    "2023": {
+      "January": {
+        "categories": {
+          "Car": 4000,
+          "Self care": 2400,
+          "Child care": 4800,
+          "Household products": 1900,
+          "Education": 6500,
+          "Leisure": 3800,
+          "Other expenses": 2400
+        },
+        "expenses": 25300,
+        "income": 28000
+      },
+      "February": {
+        "categories": {
+          "Car": 4100,
+          "Self care": 2450,
+          "Child care": 4900,
+          "Household products": 1950,
+          "Education": 6600,
+          "Leisure": 3900,
+          "Other expenses": 2450
+        },
+        "expenses": 25750,
+        "income": 28500
+      },
+      "March": {
+        "categories": {
+          "Car": 4200,
+          "Self care": 2500,
+          "Child care": 5000,
+          "Household products": 2000,
+          "Education": 6700,
+          "Leisure": 4000,
+          "Other expenses": 2500
+        },
+        "expenses": 26200,
+        "income": 29000
+      },
+      "April": {
+        "categories": {
+          "Car": 4300,
+          "Self care": 2550,
+          "Child care": 5100,
+          "Household products": 2050,
+          "Education": 6800,
+          "Leisure": 4100,
+          "Other expenses": 2550
+        },
+        "expenses": 26650,
+        "income": 29500
+      },
+      "May": {
+        "categories": {
+          "Car": 4400,
+          "Self care": 2600,
+          "Child care": 5200,
+          "Household products": 2100,
+          "Education": 6900,
+          "Leisure": 4200,
+          "Other expenses": 2600
+        },
+        "expenses": 27100,
+        "income": 30000
+      },
+      "June": {
+        "categories": {
+          "Car": 4500,
+          "Self care": 2650,
+          "Child care": 5300,
+          "Household products": 2150,
+          "Education": 7000,
+          "Leisure": 4300,
+          "Other expenses": 2650
+        },
+        "expenses": 27550,
+        "income": 30500
+      },
+      "July": {
+        "categories": {
+          "Car": 4600,
+          "Self care": 2700,
+          "Child care": 5400,
+          "Household products": 2200,
+          "Education": 7100,
+          "Leisure": 4400,
+          "Other expenses": 2700
+        },
+        "expenses": 28000,
+        "income": 31000
+      },
+      "August": {
+        "categories": {
+          "Car": 4700,
+          "Self care": 2750,
+          "Child care": 5500,
+          "Household products": 2250,
+          "Education": 7200,
+          "Leisure": 4500,
+          "Other expenses": 2750
+        },
+        "expenses": 28450,
+        "income": 31500
+      },
+      "September": {
+        "categories": {
+          "Car": 4800,
+          "Self care": 2800,
+          "Child care": 5600,
+          "Household products": 2300,
+          "Education": 7300,
+          "Leisure": 4600,
+          "Other expenses": 2800
+        },
+        "expenses": 28900,
+        "income": 32000
+      },
+      "October": {
+        "categories": {
+          "Car": 4900,
+          "Self care": 2850,
+          "Child care": 5700,
+          "Household products": 2350,
+          "Education": 7400,
+          "Leisure": 4700,
+          "Other expenses": 2850
+        },
+        "expenses": 29350,
+        "income": 32500
+      },
+      "November": {
+        "categories": {
+          "Car": 5000,
+          "Self care": 2900,
+          "Child care": 5800,
+          "Household products": 2400,
+          "Education": 7500,
+          "Leisure": 4800,
+          "Other expenses": 2900
+        },
+        "expenses": 29800,
+        "income": 33000
+      },
+      "December": {
+        "categories": {
+          "Car": 5100,
+          "Self care": 2950,
+          "Child care": 5900,
+          "Household products": 2450,
+          "Education": 7600,
+          "Leisure": 4900,
+          "Other expenses": 2950
+        },
+        "expenses": 30250,
+        "income": 33500
+      }
+    }
+  }
+  
