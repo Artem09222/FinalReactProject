@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FinalReactProject/static/css/main.70870afb.css",
+    "main.js": "/FinalReactProject/static/js/main.6a8cc727.js",
+    "static/js/453.68693753.chunk.js": "/FinalReactProject/static/js/453.68693753.chunk.js",
+    "static/media/image.jpg": "/FinalReactProject/static/media/image.f0cd45e788770d950199.jpg",
+    "index.html": "/FinalReactProject/index.html",
+    "main.70870afb.css.map": "/FinalReactProject/static/css/main.70870afb.css.map",
+    "main.6a8cc727.js.map": "/FinalReactProject/static/js/main.6a8cc727.js.map",
+    "453.68693753.chunk.js.map": "/FinalReactProject/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70870afb.css",
+    "static/js/main.6a8cc727.js"
+  ]
+}
