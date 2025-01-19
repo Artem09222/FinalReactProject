@@ -30,6 +30,10 @@ const FormTitle = styled.h1`
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 0.5%;
+
+   &:hover {
+   color: red;
+  }
 `;
 
 const FlexContainer = styled.div`
@@ -49,7 +53,13 @@ const InputRegister = styled.input`
   border: none;
   background: rgba(210, 196, 196, 0.9);
   color: rgba(133, 23, 23, 0.97);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1); 
+  }
 `;
+
 
 const FormBtnRegister = styled.button`
   padding: 13px 102px;
@@ -57,8 +67,13 @@ const FormBtnRegister = styled.button`
   width: fit-content;
   color: rgb(255, 255, 255);
   align-self: center;
-  background: linear-gradient(166.82deg, rgb(255, 199, 39) -16.418%,rgb(158, 64, 186) 97.035%,rgb(112, 0, 255) 150.711%);
-  border-radius: 20px;color: rgb(255, 255, 255);
+  background: linear-gradient(
+    166.82deg,
+    rgb(255, 199, 39) -16.418%,
+    rgb(158, 64, 186) 97.035%,
+    rgb(112, 0, 255) 150.711%
+  );
+  border-radius: 20px;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 800;
@@ -68,14 +83,27 @@ const FormBtnRegister = styled.button`
   text-transform: uppercase;
   box-shadow: 1px 9px 15px 0px rgba(0, 0, 0, 0.2);
   font-size: 15px;
-  font-family: Poppins;
   font-weight: 200;
   text-align: center;
-  border-radius: 20px;
   margin: 5px;
   cursor: pointer;
   opacity: ${(props) => (props.disabled ? 0.5 : 1)};
+  transform: rotateZ100deg);
+  @keyframes rotateButton {
+    0% {
+      transform: rotateZ(10deg);
+    }
+    50% {
+      transform: rotateZ(-10deg);
+    }
+    100% {
+      transform: rotateZ(10deg);
+    }
+  }
+
+  animation: rotateButton 3s infinite ease-in-out;
 `;
+
 
 function RegisterForm({ setUser }) {
   const [name, setName] = useState('');

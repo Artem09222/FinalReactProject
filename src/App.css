@@ -66,9 +66,25 @@ html, body {
 
 .rightSection {
   transition: transform 0.3s ease-in-out;
+  animation: fadeIn 0.8s ease-in-out;
   transform: translateX(100%); /* Початкове положення */
 }
 
 .rightSection.active {
   transform: translateX(0); /* Перехід на стандартне положення */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.app {
+  animation: fadeIn 1s ease-in-out;
 }
