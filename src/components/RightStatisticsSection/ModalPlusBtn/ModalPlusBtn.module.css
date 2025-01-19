@@ -119,6 +119,11 @@ form {
     transform: translateY(-50%); 
     pointer-events: none; 
 }
+.dArr:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 /* Другий та третій інпути */
 .inputCalendarWrapper {
     display: flex;
@@ -229,7 +234,6 @@ form {
 .cancelButton:hover {
     transform: scale(1.05); 
 }
-
 
 .dropdown {
     position: absolute; 

@@ -12,6 +12,22 @@
     font-weight: 400;
 }
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 1px 9px 15px 0px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 1px 12px 20px 0px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 1px 9px 15px 0px rgba(0, 0, 0, 0.2);
+    }
+}
+
 .delete:hover {
-    background-color: #e05650;
+    animation: pulse 0.6s infinite;
+    color: aquamarine;
 }
