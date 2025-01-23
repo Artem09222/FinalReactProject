@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';  // Імпортуйте motion
 import styles from './App.css';
 import Header from './components/Header/Header';
 import LeftStatisticsSection from './components/LeftStatisticsSection/LeftStatisticsSection';
@@ -48,16 +49,47 @@ function App() {
   }
 
   return (
-    <div className={styles.app}>
+    <motion.div 
+      initial={{ opacity: 0, x: -100 }} 
+      animate={{ opacity: 1, x: 0 }} 
+      transition={{ duration: 0.8 }}
+      className={styles.app}
+    >
       {isAuthenticated ? (
         <>
-          <Header userName={userName} onLogOut={handleLogOut} />
-          <div className={styles.container}>
-            <LeftStatisticsSection onSectionChange={setActiveRightSection} />
-            <div className={styles.rightSection}>
+          <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }} // Затримка для заголовка
+            className={styles.header}
+          >
+            <Header userName={userName} onLogOut={handleLogOut} />
+          </motion.div>
+          
+          <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }} // Затримка для лівої частини
+            className={styles.container}
+          >
+            <motion.div
+              initial={{ opacity: 0, x: -100 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              className={styles.leftStatisticsSection}
+            >
+              <LeftStatisticsSection onSectionChange={setActiveRightSection} />
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, x: 100 }}  // Для правої частини з іншого боку
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              className={styles.rightSection}
+            >
               {changedRightSection()}
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </>
       ) : (
         <RegisterForm setUser={(name) => {
@@ -65,7 +97,7 @@ function App() {
           setIsAuthenticated(true);
         }} />
       )}
-    </div>
+    </motion.div>
   );
 }
 
