@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -47,5 +48,9 @@
     "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "gh-pages": "^6.3.0",
     "webpack": "^5.97.1"
+=======
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+>>>>>>> 5016864 (Початковий коміт)
   }
 }
